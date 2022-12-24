@@ -1,0 +1,8 @@
+CREATE TABLE  products (
+    id BIGSERIAL NOT NULL PRIMARY KEY, 
+    name VARCHAR(60) NOT NULL, 
+    price BIGINT NOT NULL, 
+    count BIGINT NOT NULL, 
+    chegirma BIGINT NOT NULL, 
+    sum BIGINT NOT NULL
+)
